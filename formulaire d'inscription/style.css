@@ -1,15 +1,28 @@
-body{
-   
-    background: rgb(2,0,36);
-    background: linear-gradient(51deg, rgba(2,0,36,1) 0%, rgba(88,172,223,1) 32%, rgba(182,53,220,1) 66%, rgba(0,212,255,1) 100%);
-    background-size: cover;
-    background-position:center ;
-   
-    background-repeat: no-repeat;
+
+body {
+    width: 95%;
+    margin-top: 4%;
+    background: linear-gradient(to right, #58ACDF, #B635DC);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
 }
-h1{
+
+/*MAIN*/
+main {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
     text-align: center;
-<<<<<<<< HEAD:formulaire d'inscription/style.css
     font-family: sans-serif;
 }
 
@@ -52,9 +65,9 @@ label {
     padding: 5px;
     background-color: rgb(8, 92, 176);
     border: 1px solid transparent;
-========
+
     font-size: 20px;
->>>>>>>> 1a48ec4e68b76de94cbeed143ff12b08fbec218e:style.css
+
     color: white;
     margin-bottom: 20px;
    
@@ -119,3 +132,28 @@ a{
     
   
 }
+
+.d4 {
+    text-align: center;
+}
+
+.d4 img {
+    width: 5%;
+    position: relative;
+    top: 5px;
+}
+
+.d4 a {
+    border: 1px solid rgb(145, 134, 134);
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+
+
+a:last-child {
+    border: 0px;
+    color: rgb(41, 41, 165);
+}
+>>>>>>> b1ce8ef69235cc2ddb433e2c153e8833e787de36
