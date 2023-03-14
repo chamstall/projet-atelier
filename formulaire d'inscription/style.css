@@ -92,8 +92,20 @@ a:last-child {
     .div1{
         flex-direction: column;
     }
+    .div1 input {
+        padding: 3px;
+        width: 86%;
+    }
     .d4 a {
        display: flex;
        flex-direction: column;
+
+    }
+    .d4 img{
+        display: none;
+    }
+    .d4 a {
+        margin: 3px;
+        padding: 3px;
     }
 }
