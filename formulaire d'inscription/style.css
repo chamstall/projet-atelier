@@ -31,8 +31,6 @@ div {
 
 .div1 {
     display: flex;
-
-
 }
 
 .div1 input {
@@ -82,7 +80,6 @@ label {
     border: 1px solid rgb(145, 134, 134);
     border-radius: 5px;
     padding: 5px;
-
     color: black;
     text-align: center;
 }
@@ -90,4 +87,13 @@ label {
 a:last-child {
     border: 0px;
     color: rgb(41, 41, 165);
+}
+@media screen and (max-width:500px){
+    .div1{
+        flex-direction: column;
+    }
+    .d4 a {
+       display: flex;
+       flex-direction: column;
+    }
 }
